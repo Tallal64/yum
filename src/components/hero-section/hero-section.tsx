@@ -12,11 +12,9 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
         <div className={classNames(styles.root, className)}>
             <div className={styles.content}>
                 <div className={styles.leftSideContainer}>
-                    <h1 className={styles.heading}>
-                        Get your food delivered in under half an hour
-                    </h1>
+                    <h1 className={styles.heading}>Get your food delivered no time</h1>
                     <div className={styles.locationSection}>
-                        <AddressPicker />
+                        <AddressPicker className={styles.addressPicker} />
                         <div className={styles.actions}>
                             <LinkButton>Share location{null}</LinkButton>
                             <LinkButton>Log in to see saved addresses {null}</LinkButton>

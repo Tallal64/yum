@@ -24,7 +24,7 @@ export const AuthStatus = ({
                     <Button onClick={onLogIn} variant="secondary">
                         Log in
                     </Button>
-                    <Button variant="secondary" onClick={onLogIn}>
+                    <Button variant="primary" onClick={onLogIn}>
                         Sign up {null}
                     </Button>
                 </div>
